@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    char nome[61];
+    double SalF,TotalV,SalFinal;
+     
+    scanf("%s", &nome[61]);
+    scanf("%lf", &SalF);
+    scanf("%lf", &TotalV);
+
+    SalFinal = TotalV*0.15;
+
+    SalF = SalF + SalFinal;
+
+    printf("TOTAL = R$ %.2lf\n", SalF);
+
+  return 0;
+}
