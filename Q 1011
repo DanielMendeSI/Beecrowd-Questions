@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    const double pi = 3.14159;
+    double Raio,ValF; 
+    const double QdT = 4/3.0;
+
+    scanf("%lf", &Raio);
+
+
+    ValF = (QdT * pi * (Raio * Raio * Raio));
+
+    printf("VOLUME = %.3lf\n", ValF);
+
+   return 0;
+}
