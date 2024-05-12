@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main()
+{
+    double A,B,C;
+    float Art,Ac,At,AQ,Ar;
+    const double pi = 3.14159;
+
+    scanf("%lf %lf %lf", &A,&B,&C);
+
+// AREA DO TRIANGULO RETANGULO:
+
+Art = (A*C)/2;
+
+// AREA DO CIRCULO:
+
+    Ac = (pi * (C*C));
+
+// AREA DO TRAPEZIO:
+
+At = ((A+B)*C)/2;
+
+
+// AREA DO QUADRADO:
+
+AQ =( B*B);
+
+
+// AREA DO RETANGULO;
+
+Ar = A * B;
+
+// IMPRIMIR
+
+    printf("TRIANGULO: %.3f\nCIRCULO: %.3f\nTRAPEZIO: %.3f\nQUADRADO: %.3f\nRETANGULO: %.3f\n", Art,Ac,At,AQ,Ar);
+
+
+  return 0;
+}
