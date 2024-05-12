@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    float Id1,Quant1,Val1,Id2,Quant2,Val2,ValF;
+
+    scanf("%f %f %f", &Id1,&Quant1,&Val1);
+    scanf("%f %f %f", &Id2,&Quant2,&Val2); 
+
+    ValF = (Val1*Quant1) + (Val2 * Quant2);
+
+    printf("VALOR A PAGAR: R$ %.2f\n", ValF);
+
+
+           return 0;
+}
